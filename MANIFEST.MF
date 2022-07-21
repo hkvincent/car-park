@@ -1,0 +1,3 @@
+Manifest-Version: 1.0
+Class-Path: lib/sqlite-jdbc-3.8.7.jar
+Main-Class: vincent.test.TestPark
