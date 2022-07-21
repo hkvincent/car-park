@@ -59,12 +59,7 @@ public class CarTimer {
 						int numOfHours = car.getNumOfHours() + 1;
 						car.setNumOfHours(numOfHours);
 						if (car.getHourYouPark() <= numOfHours) {
-							pool.submit(new Runnable() {
-								@Override
-								public void run() {
-									quit(car, 0);
-								}
-							});
+							pool.submit(() -> quit(car, 0));
 							/*
 							 * new Thread(new Runnable() {
 							 * 
@@ -86,12 +81,7 @@ public class CarTimer {
 
 						}
 						if (lorries.getHourYouPark() <= hours) {
-							pool.submit(new Runnable() {
-								@Override
-								public void run() {
-									quit(lorries, 1);
-								}
-							});
+							pool.submit(() -> quit(lorries, 1));
 						}
 
 					} else if (carPark.vehicleList.get(i) instanceof Coaches) {
@@ -118,20 +108,20 @@ public class CarTimer {
 	/**
 	 * the Vehicle will be out of park when the Vehicle time's up
 	 * 
-	 * @param Vehicle
-	 * @param the
+	 * @param vehicle
+	 * @param category
 	 *            type of the Vehicle
 	 */
 	// there have a problem, the car place doesn't match jlabel place.because
 	// the equals method has some problem.to solve this problem we implement
 	// equal in Vehicle not its sub class
-	public void quit(Vehicle v, int category) {
+	public void quit(Vehicle vehicle, int category) {
 		/*
 		 * System.out.println("quit method's current thread:" +
 		 * Thread.currentThread().getName());
 		 */
 		if (category == 0) {
-			Car car = (Car) v;
+			Car car = (Car) vehicle;
 			for (MyLabel carList : CarPark.jlabelCarList) {
 				if (car.getPlace() == carList.getPlace()) {
 					carList.setIcon(null);
@@ -143,7 +133,7 @@ public class CarTimer {
 				}
 			}
 		} else if (category == 1) {
-			Lorries lorries = (Lorries) v;
+			Lorries lorries = (Lorries) vehicle;
 			for (MyLabel bigCarList : CarPark.jlabelList) {
 				if (lorries.getPlace() == bigCarList.getPlace()) {
 					bigCarList.setIcon(null);
@@ -155,7 +145,7 @@ public class CarTimer {
 				}
 			}
 		} else if (category == 2) {
-			Coaches coaches = (Coaches) v;
+			Coaches coaches = (Coaches) vehicle;
 			for (MyLabel bigCarList : CarPark.jlabelList) {
 				if (coaches.getPlace() == bigCarList.getPlace()) {
 					bigCarList.setIcon(null);
