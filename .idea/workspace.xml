@@ -6,13 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ebb2d987-cb2a-494a-91be-10cb3062450a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/vincent/dao/database/user.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vincent/dao/database/user.db" beforeDir="false" afterPath="$PROJECT_DIR$/res/database/user.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vincent/utils/CarTimer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vincent/utils/CarTimer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vincent/utils/SqlHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vincent/utils/SqlHelper.java" afterDir="false" />
-    </list>
+    <list default="true" id="ebb2d987-cb2a-494a-91be-10cb3062450a" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -107,7 +101,7 @@
       <option name="presentableId" value="Default" />
       <updated>1612881511250</updated>
       <workItem from="1612881516565" duration="2321000" />
-      <workItem from="1658415912839" duration="2683000" />
+      <workItem from="1658415912839" duration="4284000" />
     </task>
     <servers />
   </component>
@@ -115,46 +109,50 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="436" y="227" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1658418590375">
+    <state x="436" y="227" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1658419001641">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="436" y="227" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824/0.-1080.1536.864@0.0.1536.824" timestamp="1658418590375" />
+    <state x="436" y="227" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824/0.-1080.1536.864@0.0.1536.824" timestamp="1658419001641" />
     <state x="498" y="204" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1658417332780">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="498" y="204" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.824/0.-1080.1536.864@0.0.1536.824" timestamp="1658417332780" />
-    <state width="1497" height="232" key="GridCell.Tab.0.bottom" timestamp="1658418582249">
+    <state width="817" height="466" key="DebuggerActiveHint" timestamp="1658419143590">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1497" height="232" key="GridCell.Tab.0.bottom/0.0.1536.824/0.-1080.1536.864@0.0.1536.824" timestamp="1658418582249" />
-    <state width="1497" height="232" key="GridCell.Tab.0.center" timestamp="1658418582249">
+    <state width="817" height="466" key="DebuggerActiveHint/0.0.1536.824/0.-1080.1536.864@0.0.1536.824" timestamp="1658419143590" />
+    <state width="1497" height="232" key="GridCell.Tab.0.bottom" timestamp="1658493962606">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1497" height="232" key="GridCell.Tab.0.center/0.0.1536.824/0.-1080.1536.864@0.0.1536.824" timestamp="1658418582249" />
-    <state width="1497" height="232" key="GridCell.Tab.0.left" timestamp="1658418582248">
+    <state width="1497" height="232" key="GridCell.Tab.0.bottom/0.0.1536.824/0.-1080.1536.864@0.0.1536.824" timestamp="1658493962606" />
+    <state width="1497" height="232" key="GridCell.Tab.0.center" timestamp="1658493962606">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1497" height="232" key="GridCell.Tab.0.left/0.0.1536.824/0.-1080.1536.864@0.0.1536.824" timestamp="1658418582248" />
-    <state width="1497" height="232" key="GridCell.Tab.0.right" timestamp="1658418582249">
+    <state width="1497" height="232" key="GridCell.Tab.0.center/0.0.1536.824/0.-1080.1536.864@0.0.1536.824" timestamp="1658493962606" />
+    <state width="1497" height="232" key="GridCell.Tab.0.left" timestamp="1658493962605">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1497" height="232" key="GridCell.Tab.0.right/0.0.1536.824/0.-1080.1536.864@0.0.1536.824" timestamp="1658418582249" />
-    <state width="1497" height="232" key="GridCell.Tab.1.bottom" timestamp="1658418651326">
+    <state width="1497" height="232" key="GridCell.Tab.0.left/0.0.1536.824/0.-1080.1536.864@0.0.1536.824" timestamp="1658493962605" />
+    <state width="1497" height="232" key="GridCell.Tab.0.right" timestamp="1658493962606">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1497" height="232" key="GridCell.Tab.1.bottom/0.0.1536.824/0.-1080.1536.864@0.0.1536.824" timestamp="1658418651326" />
-    <state width="1497" height="232" key="GridCell.Tab.1.center" timestamp="1658418651325">
+    <state width="1497" height="232" key="GridCell.Tab.0.right/0.0.1536.824/0.-1080.1536.864@0.0.1536.824" timestamp="1658493962606" />
+    <state width="1497" height="232" key="GridCell.Tab.1.bottom" timestamp="1658493962607">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1497" height="232" key="GridCell.Tab.1.center/0.0.1536.824/0.-1080.1536.864@0.0.1536.824" timestamp="1658418651325" />
-    <state width="1497" height="232" key="GridCell.Tab.1.left" timestamp="1658418651325">
+    <state width="1497" height="232" key="GridCell.Tab.1.bottom/0.0.1536.824/0.-1080.1536.864@0.0.1536.824" timestamp="1658493962607" />
+    <state width="1497" height="232" key="GridCell.Tab.1.center" timestamp="1658493962606">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1497" height="232" key="GridCell.Tab.1.left/0.0.1536.824/0.-1080.1536.864@0.0.1536.824" timestamp="1658418651325" />
-    <state width="1497" height="232" key="GridCell.Tab.1.right" timestamp="1658418651326">
+    <state width="1497" height="232" key="GridCell.Tab.1.center/0.0.1536.824/0.-1080.1536.864@0.0.1536.824" timestamp="1658493962606" />
+    <state width="1497" height="232" key="GridCell.Tab.1.left" timestamp="1658493962606">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1497" height="232" key="GridCell.Tab.1.right/0.0.1536.824/0.-1080.1536.864@0.0.1536.824" timestamp="1658418651326" />
+    <state width="1497" height="232" key="GridCell.Tab.1.left/0.0.1536.824/0.-1080.1536.864@0.0.1536.824" timestamp="1658493962606" />
+    <state width="1497" height="232" key="GridCell.Tab.1.right" timestamp="1658493962606">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1497" height="232" key="GridCell.Tab.1.right/0.0.1536.824/0.-1080.1536.864@0.0.1536.824" timestamp="1658493962606" />
     <state x="249" y="0" key="SettingsEditor" timestamp="1658417686000">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -167,6 +165,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="393" y="203" width="648" height="466" key="find.popup/0.0.1536.824/0.-1080.1536.864@0.0.1536.824" timestamp="1658417988490" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1658419000085">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/0.-1080.1536.864@0.0.1536.824" timestamp="1658419000085" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -193,8 +195,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/vincent/utils/SqlHelper.java</url>
-          <line>64</line>
-          <option name="timeStamp" value="15" />
+          <line>61</line>
+          <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
